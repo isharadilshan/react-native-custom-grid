@@ -35,13 +35,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://reactnative.dev/docs",
-  "author": "Ishara Madhushanka <ishara.madhushanka@du.ae> (https://reactnative.dev/docs)",
+  "repository": "https://github.com/isharadilshan/react-native-custom-grid",
+  "author": "Ishara Dilshan <isharadilshandev@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://reactnative.dev/docs/issues"
+    "url": "https://github.com/isharadilshan/react-native-custom-grid/issues"
   },
-  "homepage": "https://reactnative.dev/docs#readme",
+  "homepage": "https://github.com/isharadilshan/react-native-custom-grid#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

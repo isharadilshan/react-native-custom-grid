@@ -1,18 +1,23 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-custom-grid';
+import { StyleSheet, View } from 'react-native';
+import { Row, Column } from 'react-native-custom-grid';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Row size={4}>
+        <Column sm={1} md={1}>
+          <View style={{flex: 1,height: 200, backgroundColor: 'blue'}}/>
+        </Column>
+        <Column sm={2} md={2}>
+          <View style={{flex: 1,height: 200, backgroundColor: 'red'}}/>
+        </Column>
+        <Column sm={1} md={1}>
+          <View style={{flex: 1,height: 200, backgroundColor: 'blue'}}/>
+        </Column>
+      </Row>
     </View>
   );
 }
@@ -22,6 +27,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'red'
   },
   box: {
     width: 60,
