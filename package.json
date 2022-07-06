@@ -1,7 +1,7 @@
 {
   "name": "react-native-custom-grid",
-  "version": "0.1.0",
-  "description": "test",
+  "version": "1.0.2",
+  "description": "CSS grid support for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -79,11 +79,6 @@
     "modulePathIgnorePatterns": [
       "<rootDir>/example/node_modules",
       "<rootDir>/lib/"
-    ]
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
     ]
   },
   "release-it": {
